@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  company: MyString
+  creative_path: MyString
+  impressions: 1
+  clicks: 1
+  unique_clicks: 1
+  start_date: 2022-05-23
+  end_date: 2022-05-23
+
+two:
+  name: MyString
+  company: MyString
+  creative_path: MyString
+  impressions: 1
+  clicks: 1
+  unique_clicks: 1
+  start_date: 2022-05-23
+  end_date: 2022-05-23

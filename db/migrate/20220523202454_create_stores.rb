@@ -6,8 +6,8 @@ class CreateStores < ActiveRecord::Migration[6.1]
       t.string :city
       t.string :state
       t.integer :zip
-      t.integer :company_id
-      t.boolean :open_status
+      t.belongs_to :company
+      t.boolean :open_status, default: true
 
       t.timestamps
     end

@@ -1,3 +1,3 @@
 class Coupon < ApplicationRecord
-    belongs_to :companies
+    belongs_to :company, optional: true
 end

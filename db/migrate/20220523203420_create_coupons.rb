@@ -2,7 +2,7 @@ class CreateCoupons < ActiveRecord::Migration[6.1]
   def change
     create_table :coupons do |t|
       t.string :name
-      t.belong_to :company
+      t.belongs_to :company
       t.string :creative_path
       t.integer :impressions
       t.integer :clicks
